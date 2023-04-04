@@ -1,0 +1,39 @@
+$container-width: 1080px;
+$content-width: 740px;
+$gutter: 1.5rem;
+$padding-horizontal: 1rem;
+$padding-vertical: 1rem;
+$padding-footer: 2rem;
+$margin-from-menu: 3rem;
+
+%outer-gutter {
+  padding: 0 $gutter;
+}
+
+.page-container {
+  @extend %outer-gutter;
+
+  margin-top: $margin-from-menu;
+  margin-bottom: $margin-from-menu;
+}
+
+.container {
+  max-width: $container-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $gutter;
+  padding-left: $gutter;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: $color-background-alt;
+}
+
+#body {
+  flex-grow: 1;
+  background: $color-background;
+  // overflow: auto;
+}

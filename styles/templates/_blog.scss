@@ -1,0 +1,89 @@
+.blog-title {
+  @include title-page;
+
+  margin-bottom: 2rem;
+  line-height: 1.1em;
+}
+
+.BlogPost {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  &__content,
+  &__category,
+  &__title,
+  &__meta,
+  &__image,
+  &__author,
+  &__comments {
+    max-width: $content-width;
+    // margin: 0 auto;
+  }
+
+  &__title {
+    @include title-page;
+
+    margin-bottom: 2rem;
+    line-height: 1.1em;
+  }
+
+  &__category {
+    color: $color-text-light;
+    font-size: $font-size-sm;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  &__meta {
+    margin-bottom: 3rem;
+
+    p {
+      font-family: $font-family-serif;
+      font-size: $font-size-base;
+      line-height: $line-height-base;
+    }
+  }
+
+  &__image {
+    position: relative;
+
+    &-credit {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: block;
+      padding: .7em 1em .5em;
+      border-radius: .5em 0 0;
+      background: rgba(255, 255, 255, .5);
+      color: $color-darkestgrey;
+      font-size: $font-size-xs;
+      font-weight: 400;
+      line-height: 1em;
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__author {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    background: $color-background-alt;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+}
+//
+// @include respond-to($md) {
+//   .blog-post .title {
+//     @include title-page;
+//   }
+// }

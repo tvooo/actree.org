@@ -1,0 +1,64 @@
+/* Single comment */
+.Comment {
+  margin-bottom: $spacing-md;
+  padding-bottom: $spacing-md;
+  border-bottom: 1px dotted $color-lightestgrey;
+
+  &-header {
+    // display: flex;
+    // justify-content: space-between;
+
+    font-weight: normal;
+    // font-size: $font-size-md;
+    // line-height: $line-height-md;
+    margin-bottom: $spacing-base;
+  }
+
+  &-meta {
+    color: $color-darkgrey;
+  }
+
+  &-content {
+    // font-family: $font-family-serif;
+  }
+}
+
+.CommentForm {
+  margin-bottom: $spacing-lg;
+
+  &__note {
+    color: $color-darkergrey;
+    font-size: $font-size-sm;
+  }
+}
+
+/* Comments section */
+.comments {
+  min-height: 30vh;
+
+  .comments-header {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    background-color: $color-background-alt;
+
+    > div {
+      display: flex;
+      max-width: $content-width;
+      margin: 0 auto;
+      padding-top: $padding-vertical;
+      padding-bottom: $padding-vertical;
+      justify-content: space-between;
+    }
+  }
+
+  .banner-inline {
+    margin-bottom: 2rem;
+  }
+
+  .comments-title {
+    @include title-minor;
+
+    display: inline-block;
+    line-height: 2rem;
+  }
+}

@@ -1,0 +1,88 @@
+html {
+  font-size: 16px;
+
+  @include respond-to($md) {
+    font-size: 18px;
+  }
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: $font-family-sans;
+}
+
+body {
+  color: $color-text;
+  font-family: $font-family-sans;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-family-sans;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  display: inline-block;
+  color: $color-text;
+  text-decoration: none;
+}
+
+@mixin title-page {
+  font-family: $font-family-sans;
+  font-size: $font-size-xl;
+  font-weight: 700;
+  line-height: $line-height-xl;
+}
+
+@mixin title-major {
+  font-family: $font-family-sans;
+  font-size: $font-size-md;
+  font-weight: 700;
+  line-height: $line-height-md;
+}
+
+@mixin title-minor {
+  font-family: $font-family-sans;
+  font-size: $font-size-base;
+  font-weight: 700;
+  line-height: $line-height-base;
+}
+
+.title-page {
+  @include title-page;
+}
+
+.title-major {
+  @include title-major;
+}
+
+.title-minor {
+  @include title-minor;
+}
+
+.title-list {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $color-lightergrey;
+  font-family: $font-family-serif;
+  font-size: $font-size-md;
+  line-height: $line-height-md;
+  text-align: center;
+}
+
+hr {
+  height: 1px;
+  margin: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: none;
+  border-bottom: 1px solid $color-lightergrey;
+}

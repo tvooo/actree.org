@@ -1,0 +1,118 @@
+.entry {
+  margin-top: $margin-from-menu;
+  margin-bottom: $margin-from-menu;
+
+  .entry-title {
+    @include title-page;
+
+    margin-bottom: .4em;
+    text-align: center;
+
+    @include respond-to( $md ) {
+      text-align: left;
+    }
+  }
+
+  .entry-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include respond-to($md) {
+      flex-direction: row;
+
+      .entry-aside {
+        flex-basis: 25%;
+      }
+
+      .entry-main {
+        flex-basis: 75%;
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  .entry-aside {
+    .button {
+      margin-bottom: $padding-vertical;
+    }
+  }
+
+  .entry-image img {
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto 1em auto;
+    border: 1px $color-lightergrey solid;
+  }
+
+  .entry-meta {
+    h4 {
+      @include title-minor;
+
+      margin-top: $padding-vertical;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+
+      li {
+        margin-right: .5rem;
+        margin-bottom: .5rem;
+      }
+    }
+  }
+
+  .entry-spread {
+    text-align: center;
+
+    @include respond-to($md) {
+      text-align: left;
+    }
+  }
+}
+
+.entry-small {
+  padding: 1rem;
+  background: $color-lightestgrey;
+
+  & + & {
+    margin-top: 1rem;
+  }
+}
+
+.entry-mini,
+.entry-small {
+  display: flex;
+
+  & + & {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px dotted $color-lightergrey;
+  }
+
+  .entry-image {
+    flex-basis: 20%;
+  }
+
+  .entry-main {
+    margin-left: 1rem;
+    flex-basis: 80%;
+  }
+
+  .entry-title {
+    margin-bottom: .2em;
+  }
+
+  .entry-meta ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    li {
+      margin-right: .5rem;
+      margin-bottom: .5rem;
+    }
+  }
+}

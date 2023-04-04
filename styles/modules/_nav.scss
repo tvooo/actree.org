@@ -1,0 +1,155 @@
+.header {
+  @include clearfix;
+
+  background: $color-background-alt;
+}
+
+$logo-fs: 2rem;
+$logo-height: $logo-fs;
+$logo-padding-top: calc($logo-fs / 2);
+$logo-padding-bottom: $logo-padding-top * 1.5;
+
+.navigation {
+  @extend %outer-gutter;
+
+  max-width: $container-width;
+  margin: 0 auto;
+  overflow: auto;
+
+  .logotype {
+    display: block;
+
+    label,
+    a {
+      margin: $logo-padding-top 0 $logo-padding-bottom 0;
+      font-family: $font-family-serif;
+      font-size: $logo-fs;
+      font-weight: 700;
+      line-height: $logo-height;
+      text-decoration: none;
+    }
+
+    .a {
+      display: inline-block;
+      border-bottom: 4px solid $color-brand;
+    }
+  }
+
+  .main-menu {
+    @include clearfix;
+
+    display: none;
+    margin-bottom: $logo-padding-top;
+    list-style: none;
+
+    li {
+      display: block;
+      border-bottom: 1px solid $color-lightergrey;
+
+      a {
+        display: block;
+        padding: .4rem .4rem;
+      }
+
+      &.active {
+        background: $color-lightergrey;
+      }
+    }
+  }
+
+  .open:hover + .main-menu {
+    display: block;
+  }
+
+  a {
+    color: $color-text;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  .open {
+    float: right;
+    display: block;
+
+    @include respond-to($md) {
+      display: none;
+    }
+  }
+
+  .close {
+    float: right;
+    display: none;
+  }
+
+  #menu-open:checked + .logotype {
+    .open {
+      display: none;
+    }
+
+    .close {
+      display: block;
+    }
+  }
+
+  #menu-open:checked ~ .main-menu {
+    display: block;
+  }
+
+  @include respond-to($md) {
+    .menu-toggle {
+      display: none;
+    }
+
+    .main-menu {
+      float: left;
+      display: block;
+      margin-bottom: 0;
+
+      li {
+        float: left;
+        border: 0;
+
+        a {
+          display: inline-block;
+          padding: calc(($logo-padding-top + $logo-padding-bottom) / 2) 1rem;
+          line-height: $logo-height;
+        }
+
+        &.narrow a {
+          padding: calc(($logo-padding-top + $logo-padding-bottom) / 2) .5rem;
+        }
+
+        &.active {
+          background: transparent;
+        }
+
+        &.active span {
+          border-bottom: 3px solid $color-brand;
+        }
+      }
+    }
+
+    .logotype {
+      float: left;
+
+      a {
+        margin: $logo-padding-top 1rem $logo-padding-bottom 0;
+      }
+    }
+
+    #menu-open:checked + .logotype {
+      .close,
+      .open {
+        display: none;
+      }
+    }
+  }
+}

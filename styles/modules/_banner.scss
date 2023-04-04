@@ -1,0 +1,27 @@
+%banner {
+  padding: .4em 0;
+  background: $color-lightergrey;
+  text-align: center;
+
+  .container {
+    position: relative;
+    padding-top: $padding-vertical;
+    padding-bottom: $padding-vertical;
+  }
+
+  .close {
+    display: inline-block;
+    margin-left: $gutter;
+    border: 0;
+  }
+}
+
+.banner,
+.banner-inline {
+  @extend %banner;
+}
+
+.banner-inline {
+  background: $color-lightestgrey;
+  text-align: left;
+}

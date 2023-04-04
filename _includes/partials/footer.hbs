@@ -1,0 +1,33 @@
+{{>partials/icons}}
+
+<footer class="footer">
+    <div class="container">
+        <div>
+            <p><a href="/actree/impressum">Impressum &amp; Datenschutz</a>. Mit <svg class="icon icon-heart" aria-label="Liebe"><use xlink:href="#icon-heart"></use></svg> gemacht. &copy; 2014&ndash;2023 actree e.V.</p>
+        </div>
+        <div>
+            <p>
+                <a href="https://www.facebook.com/growactree" target="_blank"><svg class="icon icon-facebook2"><use xlink:href="#icon-facebook2"></use></svg> Facebook</a>&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/growactree" target="_blank"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg> Twitter</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function (window, document) {
+
+document.nomnom = function() {
+  document.cookie = "likesCookies=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  document.getElementById('cookiebanner').style.display="none";
+}
+
+// Hide cookie banner
+if (document.cookie.replace(/(?:(?:^|.*;\s*)likesCookies\s*\=\s*([^;]*).*$)|^.*$/, "$1") === "true") {
+  //document.cookie = "doSomethingOnlyOnce=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  document.getElementById('cookiebanner').style.display="none";
+}
+
+})(this, this.document);
+
+</script>

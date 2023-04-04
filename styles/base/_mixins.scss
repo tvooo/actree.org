@@ -1,0 +1,16 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin respond-to($query) {
+  @media #{$query} {
+    @content;
+  }
+}
+
+$query-medium: 'screen and (min-width: 481px)' !default;
+$query-large: 'screen and (min-width: 769px)' !default;

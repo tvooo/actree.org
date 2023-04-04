@@ -1,0 +1,34 @@
+---
+layout: layouts/default
+---
+
+<section class="container">
+  <article class="BlogPost">
+      <header class="BlogPost__header">
+          <div class="BlogPost__category">{{category}} {% if date %}&bull; am {{date | readableDate}}{% endif %} von {{data.post.author.name.first}}</div>
+          <h1 class="BlogPost__title">{{title}}</h1>
+          <summary class="BlogPost__meta">
+              <p>{{brief}}</p>
+          </summary>
+          {# {{#if data.post.image.url}}
+            <div class="BlogPost__image">
+                <img src="{{{cloudinaryUrl data.post.image width=760 height=300 crop='fill' }}}">
+                {{#if data.post.imageCredit}}<div class="BlogPost__image-credit">{{{data.post.imageCredit.html}}}</div>{{/if}}
+            {{/if}} #}
+      </header>
+
+      <section class="BlogPost__content is-copy">
+          {{content | safe}}
+      </section>
+
+      <footer class="BlogPost__author">
+          {# <img src="{{#if data.post.author.avatar.url }}{{{cloudinaryUrl data.post.author.avatar width=128 height=128 crop='fill' }}}{{else}}{{{ gravatarUrl data.post.author }}}{{/if}}" alt="" /> #}
+          <div class="">
+              {# <h4>{{ data.post.author.name.first }}</h4>
+              <p>{{data.post.author.bio}}</p> #}
+          </div>
+
+      </footer>
+      {# Comments used to be here #}
+  </article>
+</section>

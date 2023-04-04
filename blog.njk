@@ -1,0 +1,23 @@
+---
+layout: layouts/default
+tags: [pages]
+title: Blog
+---
+
+<section class="container page-container">
+    <h1 class="blog-title">Blog</h1>
+    <div class="blog">
+        {%- for post in collections.blog %}
+            <section class="excerpt">
+              <div class="excerpt__image">
+                {%if post.image.url %}<a href="{{post.url}}" class="excerpt__image-link"><img src="{{ post.image | cloudinaryUrl(760,300,'fill') }}"></a>{% endif %}
+              </div>
+              <header class="excerpt__header">
+                <h2 class="excerpt__header-title"><a href="{{post.url}}">{{ post.data.title }}</a></h2>
+                  <p class="excerpt__header-brief">{% if post.data.brief %} {{post.data.brief}} {% endif %}</p>
+                  {# <div class="excerpt__header-meta">{{post.category}} &bull; am {{ data.date | date }} von {{author.name.first}}</div> #}
+              </header>
+            </section>
+        {%- endfor %}
+    </div>
+</section>

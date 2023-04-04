@@ -1,0 +1,61 @@
+$input-padding: .3em .6em;
+$input-border-radius: 5px;
+$full: 100%;
+
+%input {
+  appearance: none;
+  width: $full;
+  padding: $input-padding;
+  border: none;
+  border: 1px solid $color-lightgrey;
+  border-radius: $border-radius-sm;
+  background: $color-lightestgrey;
+  color: $color-text;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+
+  // &::-moz-placeholder {
+  //   color: $color-white;
+  //   opacity: none;
+  // }
+
+  &:focus {
+    border-color: $color-darkergrey;
+  }
+}
+
+label {
+  font-weight: 700;
+}
+
+fieldset + fieldset,
+fieldset + .button {
+  margin-top: $spacing-base;
+}
+
+.Textarea,
+.Input {
+  @extend %input;
+
+  &--invalid {
+    border-color: $red5;
+  }
+}
+
+.newsletter-form {
+  display: flex;
+  margin: 2rem 0 4rem 0;
+
+  input[type="text"] {
+    display: block;
+    flex-grow: 7;
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  input[type="submit"] {
+    display: block;
+    flex-grow: 3;
+    width: auto;
+  }
+}

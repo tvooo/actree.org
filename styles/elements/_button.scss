@@ -1,0 +1,55 @@
+%button-layout {
+  display: inline-block;
+  padding: $input-padding;
+  border-radius: $border-radius-sm;
+  outline: 0;
+  font-family: $font-family-sans;
+  font-size: $font-size-base;
+  font-weight: 400;
+  line-height: $line-height-base;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+%button {
+  @extend %button-layout;
+
+  border: darken($color-cta, 10%) solid;
+  border-width: 0 0 .1em 0;
+  background-color: $color-cta;
+  color: $color-text-inverted;
+
+  &:hover {
+    border-color: darken($color-cta, 10%) solid;
+    background-color: lighten($color-cta, 10%);
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &--disabled {
+    border-color: $color-lightgrey;
+    background-color: $color-lightergrey;
+  }
+
+  &.wide {
+    display: block;
+    width: $full;
+  }
+
+  &.small {
+    font-size: .8rem;
+  }
+}
+
+.button {
+  @extend %button;
+}
+
+.button-outline {
+  @extend %button-layout;
+
+  border: 1px solid $color-white;
+  background: transparent;
+  color: $color-white;
+}
