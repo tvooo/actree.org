@@ -3,10 +3,21 @@ layout: post
 tags:
   - blog
 title: Back To Jägern and Sammlern
-state: published
 slug: back-to-jaegern-and-sammlern
 brief: Mundraub.org bietet eine tolle Alternative zum Supermarkt und selber Gärtnern!
+image: https://res.cloudinary.com/actree/image/upload/v1507126463/jjqux01fxec4yu74efmd.jpg
+imageCredit: Gründe für Ausflüge in's Grüne gibt's genug - Mundraub bietet uns
+  einen Grund mit kulinarischem Aspekt.
 category: Erfahrungsbericht
+author:
+  name:
+    last: Soppe
+    first: Matthias
+  bio: Jeder trägt Verantwortung für den Erhalt unserer Welt, aber das Erkennen
+    und Annehmen dieser Verantwortung ist ein Prozess, der sehr unterschiedlich
+    abläuft. Ich möchte Menschen motivieren, diese Verantwortung wahrzunehmen
+    und das zu tun, was in ihren Möglichkeiten liegt.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1484250888/rerogbrtirzrkwqcamaz.jpg
 date: 2017-10-04
 ---
 

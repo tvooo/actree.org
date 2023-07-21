@@ -2,6 +2,7 @@
 layout: page
 tags: [pages]
 title: Verein
+date: 2015-04-01
 ---
 
 ## Verein

@@ -4,12 +4,19 @@ tags:
   - blog
 title: Nachhaltigkeit in den Wahlprogrammen der großen Parteien zur
   Bundestagswahl 2017
-state: published
 slug: nachhaltigkeit-in-den-wahlprogrammen-der-grossen-parteien-zur-bundestagswahl-2017
 brief: In dieser Analyse habe ich mir die Wahlprogramme der einzelnen Parteien
   zur Bundestagswahl 2017 angeschaut und auf das Thema "Nachhaltigkeit"
   durchforstet.
+image: https://res.cloudinary.com/actree/image/upload/v1505907828/pdklefn4eeb2z1emf9eu.jpg
+imageCredit: © Jakob Viße
 category: Recherche
+author:
+  name:
+    last: Viße
+    first: Jakob
+  bio: Ich bin Umweltwissenschaftler, koche und esse für mein Leben gern!
+  avatar: https://res.cloudinary.com/actree/image/upload/v1506033906/tmyaudkrsdt8fwavi4pz.png
 date: 2017-09-22
 ---
 

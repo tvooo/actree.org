@@ -3,10 +3,21 @@ layout: post
 tags:
   - blog
 title: Fairphone-Dokumentation erschienen
-state: published
 slug: fairphone-dokumentation-erschienen
 brief: Hier findet ihr den Link zum Video
+image: https://res.cloudinary.com/actree/image/upload/v1487671669/dlvwhfwcjk4tj5nciwdn.jpg
+imageCredit: "[Wikimedia
+  Commons](https://commons.wikimedia.org/wiki/File%3AFairphone_2_%2825882860055\
+  %29_%28cropped%29.jpg)"
 category: Ach, übrigens...
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 date: 2017-02-21
 ---
 

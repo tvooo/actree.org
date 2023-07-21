@@ -1,12 +1,19 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: Green Wedding — Heiraten auf Nachhaltig Teil 4
-state: draft
 slug: green-wedding-heiraten-auf-nachhaltig-teil-4
 brief: "Teil 4: Kleid, Anzug, Ringe und Asseccoires "
+imageCredit: ""
 category: Recherche
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 ---
 
 Gerade beim Hochzeitskleid ist die Wahl besonders schwer, wenn man auf eine faire und nachhaltige Produktion wertlegen möchte. 

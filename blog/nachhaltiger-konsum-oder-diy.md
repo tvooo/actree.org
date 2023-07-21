@@ -3,10 +3,20 @@ layout: post
 tags:
   - blog
 title: "Nachhaltiger Konsum oder DIY? "
-state: published
 slug: nachhaltiger-konsum-oder-diy
 brief: Durch "Selbermachen" die Umwelt schützen?
+image: https://res.cloudinary.com/actree/image/upload/v1520076190/iysysmoy5pwwk05gjrmd.jpg
+imageCredit: actree
 category: Ganz praktisch!
+author:
+  name:
+    last: Soppe
+    first: Matthias
+  bio: Jeder trägt Verantwortung für den Erhalt unserer Welt, aber das Erkennen
+    und Annehmen dieser Verantwortung ist ein Prozess, der sehr unterschiedlich
+    abläuft. Ich möchte Menschen motivieren, diese Verantwortung wahrzunehmen
+    und das zu tun, was in ihren Möglichkeiten liegt.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1484250888/rerogbrtirzrkwqcamaz.jpg
 date: 2018-06-26
 ---
 

@@ -3,10 +3,18 @@ layout: post
 tags:
   - blog
 title: Platzsparender Kompost mit der Wurmkiste
-state: published
 slug: platzsparender-kompost-mit-der-wurmkiste
 brief: Diese putzigen Haustiere machen eure Biotonne überflüssig.
+image: https://res.cloudinary.com/actree/image/upload/v1526332717/alskb1kcdrkeq5ug17wo.jpg
+imageCredit: Foto von [Gabriel Jimenez auf
+  Unsplash](https://unsplash.com/photos/jin4W1HqgL4)
 category: Erfahrungsbericht
+author:
+  name:
+    last: ""
+    first: Tim
+  bio: Ich bin Designer, bei actree für die Website und Finanzen zuständig, und
+    habe eine große Liebe für fair oder direkt gehandelten Kaffee!
 date: 2018-05-21
 ---
 

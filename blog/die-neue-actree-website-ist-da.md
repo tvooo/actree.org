@@ -3,10 +3,17 @@ layout: post
 tags:
   - blog
 title: Die neue actree-Website ist da!
-state: published
 slug: die-neue-actree-website-ist-da
 brief: Mit einem Blog starten wir frisch ins neue Jahr
+image: https://res.cloudinary.com/actree/image/upload/v1485556500/ohnimpqlr0e46bhcv2lh.jpg
+imageCredit: "[Bild von Unsplash](https://unsplash.com/photos/vrbZVyX2k4I)"
 category: In eigener Sache
+author:
+  name:
+    last: ""
+    first: Tim
+  bio: Ich bin Designer, bei actree für die Website und Finanzen zuständig, und
+    habe eine große Liebe für fair oder direkt gehandelten Kaffee!
 date: 2017-01-24
 ---
 

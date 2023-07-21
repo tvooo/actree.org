@@ -3,10 +3,19 @@ layout: post
 tags:
   - blog
 title: '"Grüne" elektrisch angetriebene Passagierflugzeuge'
-state: published
 slug: gruene-elektrisch-angetriebene-passagierflugzeuge
 brief: Können wir in Zukunft mit gutem Gewissen fliegen?
+image: https://res.cloudinary.com/actree/image/upload/v1491075047/re1zrl88frgflanlwcci.jpg
+imageCredit: "[Ross Parmly](https://unsplash.com/photos/rf6ywHVkrlY)"
 category: Wissenswert
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 date: 2017-04-02
 ---
 

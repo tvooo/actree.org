@@ -3,10 +3,20 @@ layout: post
 tags:
   - blog
 title: Gib schlappem Salat eine zweite Chance!
-state: published
 slug: gib-schlappem-salat-eine-zweite-chance
 brief: Tipps und Tricks im Umgang mit Salaten
+image: https://res.cloudinary.com/actree/image/upload/v1507234567/zbf1mroubnvjsqzepyve.png
+imageCredit: by actree
 category: Ganz praktisch!
+author:
+  name:
+    last: ""
+    first: Sonja
+  bio: Mit kleinen Dingen, die jeder einfach in seinen Alltag einbauen kann,
+    können wir etwas bewegen. Als praktisch veranlagter Mensch versuche ich,
+    neue Wege zu finden, wie man Müll und Lebensmittelverschwendung verhindern
+    kann.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg
 date: 2018-07-23
 ---
 

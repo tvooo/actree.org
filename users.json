@@ -1,0 +1,162 @@
+[
+  {
+    "_id": { "$oid": "55cb835d91285bc635d6121a" },
+    "isAdmin": true,
+    "password": "$2a$10$ixBkFrr.ePMLnLSX2Q/zPekPNyeXrWdlvq6LhJnpk09Jpx81xE8fK",
+    "email": "tim@tvooo.de",
+    "name": { "last": "", "first": "Tim" },
+    "__v": 0,
+    "role": "team",
+    "bio": "Ich bin Designer, bei actree für die Website und Finanzen zuständig, und habe eine große Liebe für fair oder direkt gehandelten Kaffee!"
+  },
+  {
+    "_id": { "$oid": "55cb8e6b1ba7b1da08bc72db" },
+    "role": "team",
+    "password": "$2a$10$Vs2fyRr/i3K0Jk/EJicA/O6Hy49j0Qo/wbJDD7TU2XMnouCBUorju",
+    "email": "beccy@ruehle.eu",
+    "name": { "last": "", "first": "Rebecca" },
+    "__v": 0,
+    "isAdmin": true,
+    "avatar": {
+      "public_id": "cuefed3lritxb0nmepg9",
+      "version": 1478962339,
+      "signature": "5801f1d2bba27a435cf59c0a1b5bcb0d3fc0c932",
+      "width": 3648,
+      "height": 3648,
+      "format": "jpg",
+      "resource_type": "image",
+      "url": "http://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg",
+      "secure_url": "https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg"
+    },
+    "bio": "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend machen können. "
+  },
+  {
+    "_id": { "$oid": "57893e6b519702497df73624" },
+    "password": "$2a$10$Jtg29UWWsyHJU/oxkswBB.AbtJ0xbXcLoSw5UBVe0Vi8myd5xx0YG",
+    "email": "julianekoch@gmx.de",
+    "name": { "last": "", "first": "Juliane" },
+    "__v": 0,
+    "bio": "Ich möchte dabei helfen unseren Planeten noch für nachfolgende Generationen in seiner Schönheit zu erhalten. Dabei sind mir die Themen Ernährung und tierische Lebewesen besonders wichtig.",
+    "isAdmin": true,
+    "avatar": {
+      "public_id": "m9wrfrmr2bcupmlwiqbx",
+      "version": 1479125593,
+      "signature": "e716ceb7ee67cff6c4ec36cf86dbc24d384285b4",
+      "width": 180,
+      "height": 231,
+      "format": "png",
+      "resource_type": "image",
+      "url": "http://res.cloudinary.com/actree/image/upload/v1479125593/m9wrfrmr2bcupmlwiqbx.png",
+      "secure_url": "https://res.cloudinary.com/actree/image/upload/v1479125593/m9wrfrmr2bcupmlwiqbx.png"
+    }
+  },
+  {
+    "_id": { "$oid": "57a4a6cb515f5bb9677f7754" },
+    "password": "$2a$10$j1Z05yvFvXM4HXq9qeSMDOTUq87cSHmsiDB3KyF5axtMMPi2jnk02",
+    "email": "sonjaschreiber1@gmx.net",
+    "name": { "last": "", "first": "Sonja" },
+    "__v": 0,
+    "isAdmin": true,
+    "avatar": {
+      "public_id": "x8yjmgb9aevnzug1znrt",
+      "version": 1488734719,
+      "signature": "f56053f7befc13e455b287283642c400726416b2",
+      "width": 2970,
+      "height": 2794,
+      "format": "jpg",
+      "resource_type": "image",
+      "url": "http://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg",
+      "secure_url": "https://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg"
+    },
+    "bio": "Mit kleinen Dingen, die jeder einfach in seinen Alltag einbauen kann, können wir etwas bewegen. Als praktisch veranlagter Mensch versuche ich, neue Wege zu finden, wie man Müll und Lebensmittelverschwendung verhindern kann."
+  },
+  {
+    "_id": { "$oid": "57a4a772515f5bb9677f7755" },
+    "password": "$2a$10$tkS9ts/95w6WgNcjiHLLwuiMenR6CUCDMlu3kqG.NXYYSY2SQekkG",
+    "email": "gesopp@web.de",
+    "name": { "last": "Soppe", "first": "Matthias" },
+    "__v": 0,
+    "isAdmin": true,
+    "avatar": {
+      "public_id": "rerogbrtirzrkwqcamaz",
+      "version": 1484250888,
+      "signature": "ffcbe2c7948eb3346b2343ce03454052aff98474",
+      "width": 172,
+      "height": 128,
+      "format": "jpg",
+      "resource_type": "image",
+      "url": "http://res.cloudinary.com/actree/image/upload/v1484250888/rerogbrtirzrkwqcamaz.jpg",
+      "secure_url": "https://res.cloudinary.com/actree/image/upload/v1484250888/rerogbrtirzrkwqcamaz.jpg"
+    },
+    "bio": "Jeder trägt Verantwortung für den Erhalt unserer Welt, aber das Erkennen und Annehmen dieser Verantwortung ist ein Prozess, der sehr unterschiedlich abläuft. Ich möchte Menschen motivieren, diese Verantwortung wahrzunehmen und das zu tun, was in ihren Möglichkeiten liegt."
+  },
+  {
+    "_id": { "$oid": "587a601212e629905c134442" },
+    "password": "$2a$10$FWcHmvfxSgc44flr9fU2uOF65wdn.jlXH9lmndsYs5FSK/7HYpOtK",
+    "email": "jakob.visse@gmx.net",
+    "name": { "last": "Viße", "first": "Jakob" },
+    "__v": 0,
+    "bio": "Ich bin Umweltwissenschaftler, koche und esse für mein Leben gern!",
+    "isAdmin": true,
+    "avatar": {
+      "public_id": "tmyaudkrsdt8fwavi4pz",
+      "version": 1506033906,
+      "signature": "df67373d50a1e6eb5cd3c6b3b939827fd3219608",
+      "width": 2304,
+      "height": 3136,
+      "format": "png",
+      "resource_type": "image",
+      "url": "http://res.cloudinary.com/actree/image/upload/v1506033906/tmyaudkrsdt8fwavi4pz.png",
+      "secure_url": "https://res.cloudinary.com/actree/image/upload/v1506033906/tmyaudkrsdt8fwavi4pz.png"
+    }
+  },
+  {
+    "_id": { "$oid": "587a608b12e629905c134443" },
+    "password": "$2a$10$LP6A2ellHSZ5FvDVrgCDzOegZ66X/33iuYbYkjha3hv5gYlQ.xNzO",
+    "email": "jannik.theyssen@gmail.com",
+    "name": { "last": "Theyssen", "first": "Jannik" },
+    "__v": 0,
+    "bio": "Wir als Verbraucher bestimmen, was produziert wird und unter welchen Bedingungen. Auf diese Art können wir jeden Tag Einfluss nehmen, nicht nur alle paar Jahre in politischen Wahlen.",
+    "isAdmin": true,
+    "avatar": {
+      "public_id": "insd6zoaomn2bxqhjwrh",
+      "version": 1498135566,
+      "signature": "f6f9ae37b713aa5ecab52653479ab242c6985b54",
+      "width": 3015,
+      "height": 2770,
+      "format": "jpg",
+      "resource_type": "image",
+      "url": "http://res.cloudinary.com/actree/image/upload/v1498135566/insd6zoaomn2bxqhjwrh.jpg",
+      "secure_url": "https://res.cloudinary.com/actree/image/upload/v1498135566/insd6zoaomn2bxqhjwrh.jpg"
+    }
+  },
+  {
+    "_id": { "$oid": "587a60e812e629905c134444" },
+    "password": "$2a$10$srpL9xxYRL0NOSS6NIe5eeR0Pb80dB5CP/TlligrOMjMrwoUz.wP2",
+    "email": "matthias@bendamat.de",
+    "name": { "last": "Benda", "first": "Matthias" },
+    "__v": 0,
+    "bio": "",
+    "isAdmin": true
+  },
+  {
+    "_id": { "$oid": "590f1eb453a13c1d8af636fd" },
+    "password": "$2a$10$TCjkRxHRfMubxPSgOP1dBeCbbgF8fBDL.2Z7tWEKgBuujJ4UckHcK",
+    "email": "info@actree.org",
+    "isAdmin": false,
+    "name": { "last": "", "first": "Julia (Gastautorin)" },
+    "__v": 0,
+    "bio": "Wir müssen uns gemeinsam für fundamentale Menschenrechte - wie das Recht auf Leben - einsetzen. Während wir Menschenrechte als gegeben hinnehmen, kämpfen Andere täglich um Freiheit, Sicherheit und Frieden.",
+    "avatar": {
+      "public_id": "cwtycmwiyga1euoctc19",
+      "version": 1499944985,
+      "signature": "f45695c3587bbb771b230fb4ebabcde20256363b",
+      "width": 480,
+      "height": 480,
+      "format": "jpg",
+      "resource_type": "image",
+      "url": "http://res.cloudinary.com/actree/image/upload/v1499944985/cwtycmwiyga1euoctc19.jpg",
+      "secure_url": "https://res.cloudinary.com/actree/image/upload/v1499944985/cwtycmwiyga1euoctc19.jpg"
+    }
+  }
+]

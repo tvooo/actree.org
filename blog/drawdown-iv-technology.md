@@ -1,13 +1,23 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: "Drawdown IV: Technology"
-state: ready to publish
 slug: drawdown-iv-technology
 brief: Menschen nutzen die Energie von Wind und Sonne seit Jahrtausenden. Jetzt
   ist es entscheidend.
+image: https://res.cloudinary.com/actree/image/upload/v1532359890/d5i6icfgln4onkc05zjl.png
+imageCredit: 'Das Bild zeigt einen Ausschnitt der Titelseite von Paul Hawkens
+  Buch "Drawdown: The most comprehensive Plan ever proposed to reverse global
+  warming". [Drawdown](http://www.drawdown.org)'
 category: Recherche
+author:
+  name:
+    last: Theyssen
+    first: Jannik
+  bio: Wir als Verbraucher bestimmen, was produziert wird und unter welchen
+    Bedingungen. Auf diese Art können wir jeden Tag Einfluss nehmen, nicht nur
+    alle paar Jahre in politischen Wahlen.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1498135566/insd6zoaomn2bxqhjwrh.jpg
 ---
 
 Wir setzen unsere Reise durch 100 besten Wege, den Klimawandel zu bekämpfen, fort. Schaut [hier](https://actree.org/blog/drawdown-i-einleitung) wenn ihr die Einleitung verpasst haben solltet. Bisher haben wir uns den Einfluss von [Bildung und Aufklärung](https://actree.org/blog/drawdown-ii-girls) angeschaut sowie darüber nachgedacht, [wie wir selbst am einfachsten tätig werden können](https://actree.org/blog/drawdown-iii-food).

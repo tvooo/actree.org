@@ -1,13 +1,20 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: "Drawdown V: Forests"
-state: draft
 slug: drawdown-v-forests
 brief: Wie wir mit alten Wäldern umgehen und neue anlegen hat entscheidende
   Auswirkungen aufs Klima.
+imageCredit: ""
 category: Recherche
+author:
+  name:
+    last: Theyssen
+    first: Jannik
+  bio: Wir als Verbraucher bestimmen, was produziert wird und unter welchen
+    Bedingungen. Auf diese Art können wir jeden Tag Einfluss nehmen, nicht nur
+    alle paar Jahre in politischen Wahlen.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1498135566/insd6zoaomn2bxqhjwrh.jpg
 ---
 
 ### \#5: Tropenwälder

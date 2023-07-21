@@ -3,11 +3,22 @@ layout: post
 tags:
   - blog
 title: "Drawdown II: Girls"
-state: published
 slug: drawdown-ii-girls
 brief: Bildung und soziale Gleichstellung von Frauen überall haben einen
   massiven Einfluss aufs Klima.
+image: https://res.cloudinary.com/actree/image/upload/v1523832030/d3rag7vgrskxrjmw5lx8.png
+imageCredit: 'Das Bild zeigt einen Ausschnitt der Titelseite von Paul Hawkens
+  Buch "Drawdown: The most comprehensive Plan ever proposed to reverse global
+  warming". [Drawdown](http://www.drawdown.org/)'
 category: Recherche
+author:
+  name:
+    last: Theyssen
+    first: Jannik
+  bio: Wir als Verbraucher bestimmen, was produziert wird und unter welchen
+    Bedingungen. Auf diese Art können wir jeden Tag Einfluss nehmen, nicht nur
+    alle paar Jahre in politischen Wahlen.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1498135566/insd6zoaomn2bxqhjwrh.jpg
 date: 2018-04-16
 ---
 

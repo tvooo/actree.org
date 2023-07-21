@@ -3,10 +3,20 @@ layout: post
 tags:
   - blog
 title: Mehrweg-Geschenkverpackung Teil 1
-state: published
 slug: mehrweg-geschenkverpackung-teil-1
 brief: Geschenke mal ohne Papier und Plastikschleife verpacken
+image: https://res.cloudinary.com/actree/image/upload/v1539634595/m0wcyb8yvuguegi6gtfm.jpg
+imageCredit: Foto von actree
 category: Ganz praktisch!
+author:
+  name:
+    last: ""
+    first: Sonja
+  bio: Mit kleinen Dingen, die jeder einfach in seinen Alltag einbauen kann,
+    können wir etwas bewegen. Als praktisch veranlagter Mensch versuche ich,
+    neue Wege zu finden, wie man Müll und Lebensmittelverschwendung verhindern
+    kann.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg
 date: 2018-12-19
 ---
 

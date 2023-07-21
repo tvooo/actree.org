@@ -1,12 +1,19 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: Green Wedding — Heiraten auf Nachhaltig Teil 3
-state: draft
 slug: green-wedding-heiraten-auf-nachhaltig-teil-3
 brief: "Teil 3: Die Örtlichkeit"
+imageCredit: ""
 category: ""
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 ---
 
 

@@ -1,12 +1,17 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: Nachhaltiges Banking
-state: draft
 slug: nachhaltiges-banking
 brief: ""
+imageCredit: ""
 category: Wissenswert
+author:
+  name:
+    last: ""
+    first: Tim
+  bio: Ich bin Designer, bei actree für die Website und Finanzen zuständig, und
+    habe eine große Liebe für fair oder direkt gehandelten Kaffee!
 ---
 
 Kategorie: Wissenswert o. Recherche, je nachdem wieviel Arbeit ich noch in die Recherche stecke

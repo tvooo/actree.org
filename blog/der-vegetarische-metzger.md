@@ -3,10 +3,19 @@ layout: post
 tags:
   - blog
 title: Der vegetarische Metzger
-state: published
 slug: der-vegetarische-metzger
 brief: "Gute Vorsätze fürs neue Jahr? - Sündiges Essen ohne schlechtes Gewissen "
+image: https://res.cloudinary.com/actree/image/upload/v1511733224/ngkoz32mzztoh1udbpda.jpg
+imageCredit: ©actree
 category: Erfahrungsbericht
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 date: 2018-01-02
 ---
 

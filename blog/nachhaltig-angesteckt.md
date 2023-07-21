@@ -3,10 +3,17 @@ layout: post
 tags:
   - blog
 title: Nachhaltig angesteckt
-state: published
 slug: nachhaltig-angesteckt
 brief: Wie aus nur einem Mehrweg-Kaffeebecher plötzlich fünf Stück wurden
+image: https://res.cloudinary.com/actree/image/upload/v1544285141/pe4hsubf9t0fed5xtlwo.jpg
+imageCredit: Foto von [Goran Ivos auf Unsplash](https://unsplash.com/photos/1JsjRW6Sbwg)
 category: Erfahrungsbericht
+author:
+  name:
+    last: ""
+    first: Tim
+  bio: Ich bin Designer, bei actree für die Website und Finanzen zuständig, und
+    habe eine große Liebe für fair oder direkt gehandelten Kaffee!
 date: 2018-12-12
 ---
 

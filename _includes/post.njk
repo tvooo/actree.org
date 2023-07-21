@@ -3,32 +3,37 @@ layout: layouts/default
 ---
 
 <section class="container">
-  <article class="BlogPost">
-      <header class="BlogPost__header">
-          <div class="BlogPost__category">{{category}} {% if date %}&bull; am {{date | readableDate}}{% endif %} von {{data.post.author.name.first}}</div>
-          <h1 class="BlogPost__title">{{title}}</h1>
-          <summary class="BlogPost__meta">
-              <p>{{brief}}</p>
-          </summary>
-          {# {{#if data.post.image.url}}
-            <div class="BlogPost__image">
-                <img src="{{{cloudinaryUrl data.post.image width=760 height=300 crop='fill' }}}">
-                {{#if data.post.imageCredit}}<div class="BlogPost__image-credit">{{{data.post.imageCredit.html}}}</div>{{/if}}
-            {{/if}} #}
-      </header>
+    <article class="BlogPost">
+        <header class="BlogPost__header">
+            <div class="BlogPost__category">{{category}}
+                {% if date %}&bull; am {{date | regularDate}}
+                {% endif %} von {{author.name.first}}</div>
+            <h1 class="BlogPost__title">{{title}}</h1>
+            <summary class="BlogPost__meta">
+                <p>{{brief}}</p>
+            </summary>
+            {% if image %}
+                <div class="BlogPost__image">
+                    <img src="{{ image }}"/>
+                    {% if imageCredit %}
+                        <div class="BlogPost__image-credit">{{ imageCredit | md | safe }}</div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </header>
 
-      <section class="BlogPost__content is-copy">
-          {{content | safe}}
-      </section>
+        <section class="BlogPost__content is-copy">
+            {{content | safe}}
+        </section>
 
-      <footer class="BlogPost__author">
-          {# <img src="{{#if data.post.author.avatar.url }}{{{cloudinaryUrl data.post.author.avatar width=128 height=128 crop='fill' }}}{{else}}{{{ gravatarUrl data.post.author }}}{{/if}}" alt="" /> #}
-          <div class="">
-              {# <h4>{{ data.post.author.name.first }}</h4>
-              <p>{{data.post.author.bio}}</p> #}
-          </div>
+        <footer class="BlogPost__author">
+            <img width="128" height="128" alt="" src="{% if author.avatar %}{{ author.avatar }}{% else %}https://www.gravatar.com/avatar/0947e15e6a9b58d3a6cc982982b5a0f1?s=128&d=identicon&r=g{% endif %}"/>
+            <div>
+                <h4>{{ author.name.first }}</h4>
+                <p>{{ author.bio }}</p>
+            </div>
+        </footer>
 
-      </footer>
-      {# Comments used to be here #}
-  </article>
+        {# Comments used to be here #}
+    </article>
 </section>

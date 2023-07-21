@@ -1,12 +1,20 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: actree – Workshop!
-state: draft
 slug: actree-workshop
 brief: In einem Workshop haben wir erarbeitet, wie du Zukunft von actree aussehen soll
+image: https://res.cloudinary.com/actree/image/upload/v1478960587/vooqoq3xhabouqr3hrpz.jpg
+imageCredit: ""
 category: In eigener Sache
+author:
+  name:
+    last: ""
+    first: Juliane
+  bio: Ich möchte dabei helfen unseren Planeten noch für nachfolgende Generationen
+    in seiner Schönheit zu erhalten. Dabei sind mir die Themen Ernährung und
+    tierische Lebewesen besonders wichtig.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1479125593/m9wrfrmr2bcupmlwiqbx.png
 ---
 
 **actree** will sich verändern und wachsen. Daher organisierten wir einen Workshop, in welchem Freunde und Interessierte gefragt waren zu überlegen, kreativ zu sein, zu diskutieren und zu entscheiden, wie wir uns in Zukunft präsentieren wollen.

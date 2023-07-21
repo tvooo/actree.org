@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{meta.description}}" />
+    <meta name="keywords" content="actree eco fair ethical grow together {{meta.keywords}}" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="{{meta.title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{meta.url}}" />
+    <meta property="og:image" content="{{meta.image}}" />
+    <meta property="og:description" content="{{meta.description}}" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    {# <meta name="twitter:site" content="@growactree">
+    <meta name="twitter:creator" content="@growactree"> #}
+    <meta name="twitter:title" content="{{meta.title}}">
+    <meta name="twitter:description" content="{{meta.description}}">
+    <meta name="twitter:image" content="{{meta.image}}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if meta.title %}{{meta.title}} &mdash; {% endif %}actree</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    {# <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.rss" /> #}
+
+
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:400,400italic,700">
+  </head>
+  <body>
+    {% include 'partials/header.njk' %}
+
+    <main id="body" role="main">
+      {{ content | safe }}
+    </main>
+
+    {% include 'partials/footer.njk' %}
+
+    {# {{>partials/footer}} #}
+
+   
+  </body>
+</html>

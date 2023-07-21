@@ -1,12 +1,20 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: 2ndlove
-state: ready to publish
 slug: 2ndlove
 brief: ""
+image: https://res.cloudinary.com/actree/image/upload/v1572083039/fvxqrl39wczha0exy9up.jpg
+imageCredit: Eigenes Bild
 category: Ganz praktisch!
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 ---
 
 ## Reuse

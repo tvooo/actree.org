@@ -3,10 +3,21 @@ layout: post
 tags:
   - blog
 title: "Drawdown I: Einleitung"
-state: published
 slug: drawdown-i-einleitung
 brief: Globale Erwärmung vermindern? So gehts!
+image: https://res.cloudinary.com/actree/image/upload/v1515314480/rrvnroft4jq89vmsouhh.png
+imageCredit: 'Das Bild zeigt einen Ausschnitt der Titelseite von Paul Hawkens
+  Buch "Drawdown: The most comprehensive Plan ever proposed to reverse global
+  warming". [Drawdown](http://www.drawdown.org/)'
 category: Recherche
+author:
+  name:
+    last: Theyssen
+    first: Jannik
+  bio: Wir als Verbraucher bestimmen, was produziert wird und unter welchen
+    Bedingungen. Auf diese Art können wir jeden Tag Einfluss nehmen, nicht nur
+    alle paar Jahre in politischen Wahlen.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1498135566/insd6zoaomn2bxqhjwrh.jpg
 date: 2018-03-03
 ---
 

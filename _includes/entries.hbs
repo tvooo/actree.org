@@ -1,0 +1,54 @@
+---
+layout: layouts/default
+title: Einträge
+date: 2015-01-01
+---
+
+<div class="banner">
+    <div class="container">Hier findest du Links zu fairen und ökologischen Produkten, kostenlosen Bildungsangeboten, Ideen und Informationen zu nachhaltigem Konsum, und vielem mehr.</div>
+</div>
+<section class="browse container page-container">
+    <div class="browse-nav">
+        <h2 class="title-minor">Tags</h2>
+        <select class="vertical-nav-select">
+            <option value="/entries" {{#unless data.activeTag}}selected{{/unless}}>Neueste Einträge</option>
+            {{#each data.tags}}
+            <option value="{{tagUrl slug}}" {{#ifeq slug ../data.activeTag}}selected{{/ifeq}}>
+                {{name}}
+            </option>{{/each}}
+        </select>
+        <ul class="vertical-nav-list">
+            <li class="{{#unless data.activeTag}}active{{/unless}}"><a href="/entries">Neueste Einträge</a></li>
+            {{#each data.tags}}
+            <li class="{{#ifeq slug ../data.activeTag}}active{{/ifeq}}">
+                <a href="{{tagUrl slug}}">{{name}}</a>
+            </li>{{/each}}
+        </ul>
+    </div>
+
+    <div class="browse-entries">
+        {{# each data.entries.results}}
+            <div class="entry-small">
+                <a href="{{entryUrl slug }}" class="entry-image">
+                    {{#if image.url}}
+                        <img class="entry-img" src="{{{cloudinaryUrl image  width=180 height=180 crop='fill'}}}">
+                    {{else}}
+                        <img class="entry-img" src="{{ oldImage }}">
+                    {{/if}}
+                </a>
+                <div class="entry-main">
+                    <a href="{{ entryUrl slug }}" class="">
+                        <h4 class="title-major">{{ title }}</h4>
+                    </a>
+                    <div class="entry-meta ">
+                        <ul>{{#each tags}}
+                            <li>{{>tag}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    {{!-- Hier war mal die Pagination --}}
+</section>

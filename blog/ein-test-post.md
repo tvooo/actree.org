@@ -1,12 +1,18 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: Ein Test-Post
-state: draft
 slug: ein-test-post
 brief: Ein Testentwurf, um bestimmte neue Features von actree auszuprobieren.
+image: https://res.cloudinary.com/actree/image/upload/v1499626528/qaxisi70xkarwwq0kkrg.png
+imageCredit: ""
 category: Ach, übrigens...
+author:
+  name:
+    last: ""
+    first: Tim
+  bio: Ich bin Designer, bei actree für die Website und Finanzen zuständig, und
+    habe eine große Liebe für fair oder direkt gehandelten Kaffee!
 ---
 
 Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes. Wer würde ihm schon folgen, spät in der Nacht und dazu noch in dieser engen Gasse mitten im übel beleumundeten Hafenviertel? Gerade jetzt, wo er das Ding seines Lebens gedreht hatte und mit der Beute verschwinden wollte!

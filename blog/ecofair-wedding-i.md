@@ -3,10 +3,19 @@ layout: post
 tags:
   - blog
 title: EcoFair Wedding I
-state: published
 slug: ecofair-wedding-i
 brief: "Öko-soziales Heiraten Teil 1: Motivation und Idee"
+image: https://res.cloudinary.com/actree/image/upload/v1487674273/ysp2yavlixob5pi0pdcx.jpg
+imageCredit: "[Scott Webb](https://unsplash.com/photos/v3QeAZjxxtY)"
 category: Recherche
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 date: 2017-07-25
 ---
 

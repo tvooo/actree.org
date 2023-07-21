@@ -3,11 +3,21 @@ layout: post
 tags:
   - blog
 title: Die Sache mit den Siegeln
-state: published
 slug: die-sache-mit-den-siegeln
 brief: Ist bio=fair? Und wieso hängen an meinen neuen Klamotten so viele
   Schildchen dran?
+image: https://res.cloudinary.com/actree/image/upload/v1494070408/zb1immw38wsseacb43y4.jpg
+imageCredit: Picture by actree
 category: Wissenswert
+author:
+  name:
+    last: Soppe
+    first: Matthias
+  bio: Jeder trägt Verantwortung für den Erhalt unserer Welt, aber das Erkennen
+    und Annehmen dieser Verantwortung ist ein Prozess, der sehr unterschiedlich
+    abläuft. Ich möchte Menschen motivieren, diese Verantwortung wahrzunehmen
+    und das zu tun, was in ihren Möglichkeiten liegt.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1484250888/rerogbrtirzrkwqcamaz.jpg
 date: 2017-07-07
 ---
 

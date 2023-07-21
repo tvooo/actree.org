@@ -1,0 +1,54 @@
+---
+layout: layouts/default
+tags: [pages]
+title: Einträge
+date: 2015-01-01
+---
+
+<div class="banner">
+    <div class="container">Hier findest du Links zu fairen und ökologischen Produkten, kostenlosen Bildungsangeboten, Ideen und Informationen zu nachhaltigem Konsum, und vielem mehr.</div>
+</div>
+<section class="browse container page-container">
+    <div class="browse-nav">
+        <h2 class="title-minor">Tags</h2>
+        
+        <ul class="vertical-nav-list">
+            <li class="active"><a href="/entries">Neueste Einträge</a></li>
+            
+            {%- for tag in tagswithentries | sort %}
+                <li><a href="/entries/tag/{{tag.name | slugify}}">{{ tag.name }}</a></li>
+            {%- endfor %}
+        </ul>
+    </div>
+
+    <div class="browse-entries">
+        {%- for entry in collections.entry | latest10 %}
+            <div class="entry-small">
+                <a href="{{entry.url}}" class="entry-image">
+                  {# {% if entry.data.image %} #}
+                      <img class="entry-img" src="{{ entry.data.image }}">
+                  {# {% endif %} #}
+              </a>
+                {# <a href="{{ entry.data.title slug }}" class="entry-image"> #}
+                    {# {{#if image.url}}
+                        <img class="entry-img" src="{{{cloudinaryUrl image  width=180 height=180 crop='fill'}}}">
+                    {{else}}
+                        <img class="entry-img" src="{{ oldImage }}"> #}
+                    {# {{/if}} #}
+                {# </a> #}
+                <div class="entry-main">
+                    <a href="{{ entry.url }}" class="">
+                        <h4 class="title-major">{{ entry.data.title }}</h4>
+                    </a>
+                    <div class="entry-meta ">
+                        <ul>
+                            {%- for tag in entry.data.entrytags %}
+                            <li><a href="{{tag | slugify}}" class="tag">{{ tag }}</a></li>
+                            {%- endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {%- endfor %}
+    </div>
+</section>

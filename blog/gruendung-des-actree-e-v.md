@@ -3,10 +3,20 @@ layout: post
 tags:
   - blog
 title: Gründung des „actree e.V.“
-state: published
 slug: gruendung-des-actree-e-v
 brief: Juhe! Wir sind nun ein Verein!
+image: https://res.cloudinary.com/actree/image/upload/v1487156059/jla7xbwfeqlk5l9vwu1u.jpg
+imageCredit: Bild von actree e.V.
 category: In eigener Sache
+author:
+  name:
+    last: Soppe
+    first: Matthias
+  bio: Jeder trägt Verantwortung für den Erhalt unserer Welt, aber das Erkennen
+    und Annehmen dieser Verantwortung ist ein Prozess, der sehr unterschiedlich
+    abläuft. Ich möchte Menschen motivieren, diese Verantwortung wahrzunehmen
+    und das zu tun, was in ihren Möglichkeiten liegt.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1484250888/rerogbrtirzrkwqcamaz.jpg
 date: 2017-02-15
 ---
 

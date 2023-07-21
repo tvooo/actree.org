@@ -1,12 +1,21 @@
 ---
 layout: post
-tags:
-  - blog
+tags: []
 title: 'Würziger "Biomüll"  '
-state: ready to publish
 slug: wuerziger-biomuell
 brief: Was Gemüseabfälle alles können
+image: https://res.cloudinary.com/actree/image/upload/v1511286450/twfol8eok2epwmdhrll2.jpg
+imageCredit: by actree
 category: Ganz praktisch!
+author:
+  name:
+    last: ""
+    first: Sonja
+  bio: Mit kleinen Dingen, die jeder einfach in seinen Alltag einbauen kann,
+    können wir etwas bewegen. Als praktisch veranlagter Mensch versuche ich,
+    neue Wege zu finden, wie man Müll und Lebensmittelverschwendung verhindern
+    kann.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg
 ---
 
 Möhrengrün, Porreeenden, Sellerieschalen und andere Schnippelreste landen beim Kochen im Müll. Schade, denn so werden wahre Geschmacksbomben verschwendet, die entweder zu einer Würzpaste oder einem Gemüsefond verarbeitet werden können.<br>In diesem Beitrag stelle ich die Würzpaste vor. Dieses Rezept habe ich aus dem Kochbuch „Restlos! Clever kochen mit Resten“ vom Kosmos-Verlag. Sie schmeckt nach einer kräftigen Brühe.

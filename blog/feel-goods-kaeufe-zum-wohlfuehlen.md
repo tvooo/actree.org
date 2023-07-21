@@ -3,10 +3,20 @@ layout: post
 tags:
   - blog
 title: Feel Goods - Käufe zum Wohlfühlen
-state: published
 slug: feel-goods-kaeufe-zum-wohlfuehlen
 brief: 5 Ansätze, wie ihr zu einem kritischeren Konsumenten werden könnt
+image: https://res.cloudinary.com/actree/image/upload/v1488214705/jevghbslafo9g5njlqvb.jpg
+imageCredit: © actree
 category: Meinung
+author:
+  name:
+    last: Soppe
+    first: Matthias
+  bio: Jeder trägt Verantwortung für den Erhalt unserer Welt, aber das Erkennen
+    und Annehmen dieser Verantwortung ist ein Prozess, der sehr unterschiedlich
+    abläuft. Ich möchte Menschen motivieren, diese Verantwortung wahrzunehmen
+    und das zu tun, was in ihren Möglichkeiten liegt.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1484250888/rerogbrtirzrkwqcamaz.jpg
 date: 2017-09-15
 ---
 

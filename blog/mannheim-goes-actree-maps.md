@@ -3,10 +3,19 @@ layout: post
 tags:
   - blog
 title: Mannheim goes actree Maps
-state: published
 slug: mannheim-goes-actree-maps
 brief: Sophia und Lisa stellen uns auf dem Infinity-Nachhaltigkeitstag vor
+image: https://res.cloudinary.com/actree/image/upload/v1494068689/xdvrbitbks5bdezcqqfr.jpg
+imageCredit: Eigenes Bild
 category: In eigener Sache
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 date: 2017-05-07
 ---
 

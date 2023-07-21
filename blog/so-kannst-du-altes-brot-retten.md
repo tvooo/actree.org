@@ -3,10 +3,20 @@ layout: post
 tags:
   - blog
 title: So kannst Du altes Brot retten
-state: published
 slug: so-kannst-du-altes-brot-retten
 brief: Brot kann man vielseitig verwenden - selbst wenn es schon hart geworden ist!
+image: https://res.cloudinary.com/actree/image/upload/v1485799004/prqfojxmzaomiophbtfl.jpg
+imageCredit: Bild von [Unsplash](https://unsplash.com/photos/0RUlEosIP8Y)
 category: Ganz praktisch!
+author:
+  name:
+    last: ""
+    first: Sonja
+  bio: Mit kleinen Dingen, die jeder einfach in seinen Alltag einbauen kann,
+    können wir etwas bewegen. Als praktisch veranlagter Mensch versuche ich,
+    neue Wege zu finden, wie man Müll und Lebensmittelverschwendung verhindern
+    kann.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg
 date: 2017-01-29
 ---
 

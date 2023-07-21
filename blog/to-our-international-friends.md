@@ -3,10 +3,18 @@ layout: post
 tags:
   - blog
 title: To our international friends
-state: published
 slug: to-our-international-friends
 brief: Why actree is focusing on the German market for now
+image: https://res.cloudinary.com/actree/image/upload/v1485800180/tkglvhzniuaxykjemssa.jpg
+imageCredit: "[Wikimedia
+  Commons](https://commons.wikimedia.org/wiki/File:Familia_Polandball_2B.png)"
 category: In eigener Sache
+author:
+  name:
+    last: ""
+    first: Tim
+  bio: Ich bin Designer, bei actree für die Website und Finanzen zuständig, und
+    habe eine große Liebe für fair oder direkt gehandelten Kaffee!
 date: 2017-01-26
 ---
 

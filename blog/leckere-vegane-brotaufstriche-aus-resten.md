@@ -3,11 +3,21 @@ layout: post
 tags:
   - blog
 title: Leckere vegane Brotaufstriche aus Resten
-state: published
 slug: leckere-vegane-brotaufstriche-aus-resten
 brief: "Butterbrot, Stulle, Schnitte, Bemme oder Knifte: Ganz egal wie ihr es
   nennt, ein leckerer Aufstrich kann es nur verbessern."
+image: https://res.cloudinary.com/actree/image/upload/v1489321485/bgfswfkvvcvwqybsuamq.jpg
+imageCredit: actree
 category: Ganz praktisch!
+author:
+  name:
+    last: ""
+    first: Sonja
+  bio: Mit kleinen Dingen, die jeder einfach in seinen Alltag einbauen kann,
+    können wir etwas bewegen. Als praktisch veranlagter Mensch versuche ich,
+    neue Wege zu finden, wie man Müll und Lebensmittelverschwendung verhindern
+    kann.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg
 date: 2018-09-28
 ---
 

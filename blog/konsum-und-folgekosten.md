@@ -3,10 +3,19 @@ layout: post
 tags:
   - blog
 title: Konsum und Folgekosten
-state: published
 slug: konsum-und-folgekosten
 brief: Deine Rolle in diesem Dilemma
+image: https://res.cloudinary.com/actree/image/upload/v1499776434/fkudyc8pscr5pkc16q0w.jpg
+imageCredit: Taslima Akhter
 category: Meinung
+author:
+  name:
+    last: ""
+    first: Julia (Gastautorin)
+  bio: Wir müssen uns gemeinsam für fundamentale Menschenrechte - wie das Recht
+    auf Leben - einsetzen. Während wir Menschenrechte als gegeben hinnehmen,
+    kämpfen Andere täglich um Freiheit, Sicherheit und Frieden.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1499944985/cwtycmwiyga1euoctc19.jpg
 date: 2017-07-10
 ---
 

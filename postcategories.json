@@ -1,0 +1,44 @@
+[
+  {
+    "_id": { "$oid": "578947b33208bd017aecb0bf" },
+    "key": "ganz-praktisch",
+    "name": "Ganz praktisch!",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "582722573899ddd80510be63" },
+    "key": "meinung",
+    "name": "Meinung",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "5827227b3899ddd80510be64" },
+    "key": "erfahrungsbericht",
+    "name": "Erfahrungsbericht",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "5827228b3899ddd80510be65" },
+    "key": "recherche",
+    "name": "Recherche",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "582722e23899ddd80510be66" },
+    "key": "ach-ubrigens",
+    "name": "Ach, übrigens...",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "58dffe9fb04d916381728edb" },
+    "key": "wissenswert",
+    "name": "Wissenswert",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "578947993208bd017aecb0bd" },
+    "key": "in-eigener-sache",
+    "name": "In eigener Sache",
+    "__v": 0
+  }
+]

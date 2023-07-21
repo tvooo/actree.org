@@ -3,10 +3,19 @@ layout: post
 tags:
   - blog
 title: Macht was draus! – actree ist unter den Gewinnern des Wettbewerbs
-state: published
 slug: macht-was-draus-actree-ist-unter-den-gewinnern-des-wettbewerbs
 brief: "actree wurde vom Stifterverband für die Deutsche Wissenschaft ausgezeichnet. "
+image: https://res.cloudinary.com/actree/image/upload/v1478961670/acighwzvkdrdew3crhyt.jpg
+imageCredit: Stifterverband für die Deutsche Wissenschaft e.V
 category: In eigener Sache
+author:
+  name:
+    last: ""
+    first: Rebecca
+  bio: "Ich wünsche mir eine bessere Welt für Menschen, Tiere und Umwelt. Dabei
+    frage ich mich häufig, wie wir als Konsumenten unsere Forderungen geltend
+    machen können. "
+  avatar: https://res.cloudinary.com/actree/image/upload/v1478962339/cuefed3lritxb0nmepg9.jpg
 date: 2017-02-23
 ---
 

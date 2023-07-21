@@ -3,11 +3,21 @@ layout: post
 tags:
   - blog
 title: Verschwendung von Lebensmitteln stoppen!
-state: published
 slug: verschwendung-von-lebensmitteln-stoppen
 brief: Jedes Jahr landen tonnenweise Lebensmittel im Müll. Was können wir in
   unserem täglichen Leben tun, um das zu verhindern?
+image: https://res.cloudinary.com/actree/image/upload/v1488283477/durfzli5toige0uwghpo.jpg
+imageCredit: ""
 category: Erfahrungsbericht
+author:
+  name:
+    last: ""
+    first: Sonja
+  bio: Mit kleinen Dingen, die jeder einfach in seinen Alltag einbauen kann,
+    können wir etwas bewegen. Als praktisch veranlagter Mensch versuche ich,
+    neue Wege zu finden, wie man Müll und Lebensmittelverschwendung verhindern
+    kann.
+  avatar: https://res.cloudinary.com/actree/image/upload/v1488734719/x8yjmgb9aevnzug1znrt.jpg
 date: 2017-02-28
 ---
 
