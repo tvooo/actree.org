@@ -5,7 +5,7 @@
   </div> #}
   <div id="cookiebanner" style="background: #ede9ca; padding: 10px; text-align: center">
     Der Verein actree e.V. wurde aufgel&ouml;st. Die Webseite bleibt bestehen, wird vorerst aber nicht aktualisiert.
-    <button type="button" onclick="nomnom()" class="button">Alles klar!</button>
+    {# <button type="button" onclick="nomnom()" class="button">Alles klar!</button> #}
   </div>
   <nav class="navigation" id="menu" role="navigation">
     <input type="checkbox" name="menu" id="menu-open">
@@ -17,7 +17,7 @@
     <ul class="main-menu" id="main-menu">
       {%- for p in collections.pages %}
         <li class="{% if p.url == page.url %}active{% endif %}" {% if p.url == page.url %}aria-current="page"{% endif %}>
-          <a class="" href="{{ p.url }}"><span>{{ p.data.title }}</span></a>
+          <a class="" href="{% if p.data.external_url %}{{ p.data.external_url }}{% else %}{{ p.url }}{% endif %}"><span>{{ p.data.title }}</span></a>
         </li>
       {%- endfor %}
     </ul>
